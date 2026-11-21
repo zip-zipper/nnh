@@ -3,7 +3,7 @@
    - Page navigations are network-first so updates arrive when online.
    - Other same-origin files (images, audio, video) are cached on first use.
    Bump CACHE_VERSION whenever the app is updated. */
-var CACHE_VERSION = "nnh-v1";
+var CACHE_VERSION = "nnh-v2";
 var CORE = [
   "./",
   "./index.html",
