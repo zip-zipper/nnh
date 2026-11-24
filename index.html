@@ -840,6 +840,11 @@
   }
   .terms-panel .terms-title{margin:0 0 10px;font-size:15px;font-weight:800;color:var(--ink)}
   .terms-panel .terms-list{font-size:14px;line-height:1.85;color:var(--ink-dim)}
+  .terms-panel .oz-link-row{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
+  .terms-panel .oz-link{display:inline-flex;align-items:center;gap:12px;border-radius:10px;text-decoration:none}
+  .terms-panel .oz-link-text{font-size:14px;font-weight:700;color:var(--pink2);white-space:nowrap}
+  .terms-panel .oz-link:hover .oz-link-text{text-decoration:underline}
+  .terms-panel .oz-link img{width:132px;max-width:52vw;height:auto;display:block}
   /* full-screen overlay page: manga-style panels (white paper, thick
      dark frame) with the characters' real expression art + speech
      bubbles + cropped screenshots of the actual UI. It scrolls
@@ -1401,6 +1406,12 @@
     <section class="terms-panel">
       <p class="terms-title">ご利用にあたって</p>
       <ul class="terms-list" id="termsOverlayList"></ul>
+      <div class="oz-link-row">
+        <a class="oz-link" href="https://0z.chat/" target="_blank" rel="noopener" aria-label="オズチャット公式ページ（新しいタブで開きます）">
+          <span class="oz-link-text">オズチャット公式HPへ→</span>
+          <img src="assets/ozchat-logo.webp" alt="オズチャット公式ロゴ" />
+        </a>
+      </div>
     </section>
     <div class="guide-foot">
       <button class="tbtn primary" id="btnTermsCloseB" type="button">閉じて戻る</button>
